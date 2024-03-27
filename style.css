@@ -1,0 +1,576 @@
+.header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 73px;
+    border-bottom: solid rgba(0, 1, 3, 0.5);;
+    border-width: 2px;
+    z-index: 1;
+   
+}
+body{
+    margin: 0;
+}
+
+.uslogo img{
+    width: 211.4px;
+    height: 61px;
+    position:relative;
+    padding-left: 70px;
+    top: 5px;
+    float: left;
+    
+}
+.menu{
+    float: left;
+    padding-left: 3.6px;
+    height: 73px;
+    width: 75.1%;
+}
+
+.list{
+    float: left;
+    position: relative;
+    top: 12px;
+    
+}
+@font-face {
+    font-family: 'Trivia Slab';
+    font-weight: 400;
+    font-style: normal;
+    src:url('assets/font/TriviaSlabMedium.woff2') format("woff2"),url('assets/font/TriviaSlabMedium.woff') format("woff");
+    
+}
+.list-item{
+    display:flex;
+    float: left;
+    font-family: 'Trivia Slab';
+    font-weight: 400;
+    padding: 0px 18px;
+    align-items: center;
+}
+.list a{
+    text-decoration: none;
+    color: #2a3a54;
+    position: relative;
+}
+.list a:after{
+    content: "";
+    position: absolute;
+    background-color: #2a3a54;
+    height: 3px;
+    left: 0;
+    width: 0%;
+    bottom: -27.8px;
+    transition:height 0.2s;
+}
+.list a:hover:after{
+    width: 100%;
+}
+.globe{
+    float:right;
+    padding-right: 20px;
+    
+}
+.globe img{
+    height: 1.29rem;
+    margin-top: 29px;
+    
+}
+.uspolo-seal{
+    float: right;
+    width: 84px;
+
+}
+.uspolo-seal img{
+    position: relative;
+    top: 9px;
+    width: 56px;
+    height: 56px;
+}
+.arrow{
+    float: right;
+    border: solid black;
+    position: relative;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    top: calc(50% - 4px);
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+.home{
+    
+    width: 100%;
+    height: calc(100vh - 15px);
+    background-position:50% 72px;
+    background-size: 100% 860px;
+    background-image: url("us polo background.jpg");
+    background-attachment: fixed;
+
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    
+
+
+}
+.live{
+    padding-left: 36.5rem;
+}
+.home h1{
+    color: #fff;
+    font-family: 'Trivia Slab';
+    font-weight: 600;
+    font-size: 1.125rem;
+    letter-spacing: 0.5rem;
+    display: block;
+    margin-bottom: -1.3rem;
+}
+.home h2{
+    color: #fff;
+    padding-left: 33px;
+    font-family: 'Trivia Slab';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0.0625rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.firststrip{
+    display: block;
+    float: left;
+    position: relative;
+    height: 6px;
+    content: "";
+    width: 100%;
+    background-color: #fff;
+    border-top: 3.5px solid #b30838;
+    border-bottom: 10.6px solid #2a3a54;
+}
+.contentx{
+    float: left;
+    
+    display: block;
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.about{
+    padding-top: 1.875rem;
+}
+.content{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    width: 100%;
+    text-align: center;
+}
+.heading h1{
+    font-size: 1.125rem;
+    font-family: 'Trivia Slab';
+    font-weight: 600;
+    color: #b30838;
+    letter-spacing: 0.5rem;
+    margin-bottom: -1rem;
+    line-height: 1;
+}
+.heading h2{
+    font-size: 2.5rem;
+    font-family: 'Trivia Slab';
+    letter-spacing: 0.0625rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #2a3a54;
+    margin-bottom: 0rem;
+}
+.para{
+    margin: 1em;
+    color: #333;
+}
+
+.para p{
+    
+    word-spacing: 2px;
+    font-size: 1rem;
+    font-family: 'OpenSans', 'Helvetica', sans-serif;
+    line-height: 1.5;
+    display: block;
+    
+    
+}
+strong a{
+    
+    color: #b30838;
+    font-weight: 700;
+    word-break: break-word;
+    text-decoration: none;
+}
+.facts-button a{
+    line-height: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.facts-button{
+    
+    background-color: #b30838;
+    border-radius: 0;
+    border: 1px solid #b30838;
+    display: inline-block;
+    font-family: 'Trivia Slab';
+    font-size: 16px;
+    margin-top: 1.25rem;
+    padding: 0.7em 0.7em;
+    position: relative;
+    text-align: center;
+    transition: background-color .2s;
+    cursor: pointer;
+    color: #fff;
+}
+.inspiration{
+    padding: 0.875rem;
+    text-align: center;
+
+}
+.heading-inspiration h2{
+    font-size: 2.4rem;
+    font-family: 'Trivia Slab';
+    line-height: 1;
+    margin: 0 0 1rem;
+    letter-spacing: 0.16rem;
+    font-weight: 600;
+    color: #2a3a54;
+    fill: #2a3a54;
+}
+.video{
+    padding: 40px;
+    margin: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+
+}
+.secondstrip{
+    display: block;
+    float: left;
+    position: relative;
+    height: 6px;
+    content: "";
+    width: 90%;
+    margin-left: 55px;
+    margin-right: 55px;
+    background-color: #fff;
+    border-top: 3.5px solid #b30838;
+    border-bottom: 10.6px solid #2a3a54;
+}
+.gallery{
+    padding-top: 89px;
+    
+}
+.sec1{
+    float: left;
+    width: 50%;
+}
+.sec2{
+    float: left;
+    width: 50%;
+}
+
+.img1, .img4{
+    padding-left: 84px;
+}
+.img1 img{
+    float: left;
+    width: 323px;
+    height: 323px;
+    
+}
+.img2 img{
+    margin-left:20px;
+    float: left;
+    width: 323px;
+    height: 323px;
+}
+.img3{
+    float: left;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-left: 10px;
+    width: 666px;
+    height: 666px;
+}
+.img4 img{
+    float: left;
+   
+    margin-top: 20px;
+    width: 323px;
+    height: 323px;
+}
+
+.img5 img{
+    margin-left:20px;
+    margin-top:20px;
+    float: left;
+    width: 323px;
+    height: 323px;
+}
+.insta{
+    width: 88.9%;
+    float: left;
+    padding-top: 1.5rem;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+.instagram{
+    font-family: 'Trivia Slab';
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    position: relative;
+    color: #2a3a54;
+    text-decoration: none;
+    letter-spacing: 0.4375rem;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+}
+.instagram:hover{
+    background-color: #2a3a54;
+    color: #fff;
+}
+.footer img{
+    height: 959px;
+   
+    width: 100%;
+    float: left;
+    object-fit: cover;
+    
+  
+}
+.footer{
+   
+    position: relative;
+    height: 959px;
+    width: 100%;
+    overflow: hidden;
+}
+.gradient{
+    position: absolute;
+    opacity: 1;
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at 50% 10%,hsla(0,0%,100%,0) 0,#fff 69%);
+    top: 0;
+    left: 0;
+}
+.details{
+    float: left;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    padding-top: 25rem;
+    
+}
+.signup{
+    float: left;
+    width: 35%;
+    height:13%;
+    padding:20px;
+    padding-bottom: 0;
+}
+.signup-head{
+    font-size: 1.14rem;
+    margin-bottom: 1rem;
+    
+    color: #2a3a54;
+    fill: #2a3a54;
+    font-family: 'Trivia Slab';
+    line-height: 1;
+    margin: 0 0 1rem;
+    letter-spacing: 0.12rem;
+    font-weight: 600;
+    
+}
+.signup-form{
+    width: 30.333333333%;
+    position: absolute;
+    display: block;
+    padding-left: 50px;
+
+}
+#mail{
+    float: left;
+    width: 70%;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+#mail:placeholder-shown{
+    font-family: 'Trivia Slab';
+    font-size: 0.9rem;
+    padding-left: 20px;
+    
+
+}
+button:hover{
+    background-color: #2a3a54;
+}
+.signup-button{
+    background-color: #b30838;
+    border: 1px solid #b30838;
+    font-family: 'Trivia Slab';
+    font-size: 16px;
+    padding: 0.6em 0.7em;
+    position: relative;
+    text-align: center;
+    transition: background-color .2s;
+    cursor: pointer;
+    color: #fff;
+}
+.collections{
+    float: left;
+    display: block;
+    width: 66.667%;
+    
+ 
+}
+.first{
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+
+}
+.collections a{
+    text-decoration: none;
+    color: #333;
+    
+    
+}
+.collections a:hover{
+   color: #b30838;
+}
+
+.collec-nav{
+    float: left;
+    height: 20%;
+    width: 66.67%;
+    
+}
+.order-list{
+    margin-right: 85px;
+    float: left ;
+    padding-left: 63px;
+    
+    
+}
+ol li{
+    padding: 0.63rem;
+    list-style-type: none;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social{
+    float: left;
+    width: 22.33%;
+    height: 30px;
+    padding-left: 9.3rem;
+}
+.social-list{
+    text-align: right;
+    margin-right: 0.8rem;
+}
+.list-item2{
+    margin-top: 0.3125rem;
+    display:flex;
+    float: left;
+    font-weight: 400;
+    padding: 0px 18px;
+}
+.list-item2 a {
+    color: #2a3a54;
+    text-decoration: none;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+.icon img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.list-item3 a{
+    
+    font-size: 0.975rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #2a3a54;
+     
+}
+.list-item3 a:hover{
+    color: #b30838;
+    
+}
+.pol-nav ul li{
+    float: left;
+    margin-left: 1.3rem;
+    list-style-type: none; 
+    padding-right: .625rem;
+    padding-left: .625rem;
+}
+.pol-nav{
+    float: left;
+    height: 20%;
+    width: 100%
+}
+.last-button{
+    float: left;
+    background-color: #b30838;
+    border-radius: 0;
+    border: 1px solid #b30838;
+    font-family: 'Trivia Slab';
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 1.25rem;
+    margin-left: 70px;
+    position: relative;
+    text-align: center;
+    transition: background-color .2s;
+    cursor: pointer;
+    color: #fff;
+}
+.end{
+    float: left;
+    text-align: right;
+    width: 95%;
+    height: 200px;
+    
+}
+.end img{
+    float: right;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+.fixedButton{
+    position: fixed;
+    bottom: -10px;
+    right: 0px; 
+    padding-right: 10px;
+}
+
+.roundedFixedBtn img{
+  height: 40px;
+  border-radius: 40%;
+  background-color: white;
+  cursor: pointer;
+}
+

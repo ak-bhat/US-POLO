@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabRegular-Bold.eot');
+    src: local('Trivia Slab Bold'), local('TriviaSlabRegular-Bold'),
+        url('TriviaSlabRegular-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabRegular-Bold.woff2') format('woff2'),
+        url('TriviaSlabRegular-Bold.woff') format('woff'),
+        url('TriviaSlabRegular-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab Book';
+    src: url('TriviaSlabBook-Italic.eot');
+    src: local('Trivia Slab Book Italic'), local('TriviaSlabBook-Italic'),
+        url('TriviaSlabBook-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabBook-Italic.woff2') format('woff2'),
+        url('TriviaSlabBook-Italic.woff') format('woff'),
+        url('TriviaSlabBook-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabBlack.eot');
+    src: local('Trivia Slab Black'), local('TriviaSlabBlack'),
+        url('TriviaSlabBlack.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabBlack.woff2') format('woff2'),
+        url('TriviaSlabBlack.woff') format('woff'),
+        url('TriviaSlabBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabRegular-BoldItalic.eot');
+    src: local('Trivia Slab Bold Italic'), local('TriviaSlabRegular-BoldItalic'),
+        url('TriviaSlabRegular-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabRegular-BoldItalic.woff2') format('woff2'),
+        url('TriviaSlabRegular-BoldItalic.woff') format('woff'),
+        url('TriviaSlabRegular-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabBlack-Italic.eot');
+    src: local('Trivia Slab Black Italic'), local('TriviaSlabBlack-Italic'),
+        url('TriviaSlabBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabBlack-Italic.woff2') format('woff2'),
+        url('TriviaSlabBlack-Italic.woff') format('woff'),
+        url('TriviaSlabBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab Hairline';
+    src: url('TriviaSlabHairline.eot');
+    src: local('Trivia Slab Hairline'), local('TriviaSlabHairline'),
+        url('TriviaSlabHairline.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabHairline.woff2') format('woff2'),
+        url('TriviaSlabHairline.woff') format('woff'),
+        url('TriviaSlabHairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabRegular.eot');
+    src: local('Trivia Slab'), local('TriviaSlabRegular'),
+        url('TriviaSlabRegular.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabRegular.woff2') format('woff2'),
+        url('TriviaSlabRegular.woff') format('woff'),
+        url('TriviaSlabRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabLight-Italic.eot');
+    src: local('Trivia Slab Light Italic'), local('TriviaSlabLight-Italic'),
+        url('TriviaSlabLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabLight-Italic.woff2') format('woff2'),
+        url('TriviaSlabLight-Italic.woff') format('woff'),
+        url('TriviaSlabLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab Book';
+    src: url('TriviaSlabBook.eot');
+    src: local('Trivia Slab Book'), local('TriviaSlabBook'),
+        url('TriviaSlabBook.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabBook.woff2') format('woff2'),
+        url('TriviaSlabBook.woff') format('woff'),
+        url('TriviaSlabBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabMedium.eot');
+    src: local('Trivia Slab Medium'), local('TriviaSlabMedium'),
+        url('TriviaSlabMedium.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabMedium.woff2') format('woff2'),
+        url('TriviaSlabMedium.woff') format('woff'),
+        url('TriviaSlabMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabMedium-Italic.eot');
+    src: local('Trivia Slab Medium Italic'), local('TriviaSlabMedium-Italic'),
+        url('TriviaSlabMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabMedium-Italic.woff2') format('woff2'),
+        url('TriviaSlabMedium-Italic.woff') format('woff'),
+        url('TriviaSlabMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab Hairline';
+    src: url('TriviaSlabHairline-Italic.eot');
+    src: local('Trivia Slab Hairline Italic'), local('TriviaSlabHairline-Italic'),
+        url('TriviaSlabHairline-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabHairline-Italic.woff2') format('woff2'),
+        url('TriviaSlabHairline-Italic.woff') format('woff'),
+        url('TriviaSlabHairline-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabRegular-Italic.eot');
+    src: local('Trivia Slab Italic'), local('TriviaSlabRegular-Italic'),
+        url('TriviaSlabRegular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabRegular-Italic.woff2') format('woff2'),
+        url('TriviaSlabRegular-Italic.woff') format('woff'),
+        url('TriviaSlabRegular-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trivia Slab';
+    src: url('TriviaSlabLight.eot');
+    src: local('Trivia Slab Light'), local('TriviaSlabLight'),
+        url('TriviaSlabLight.eot?#iefix') format('embedded-opentype'),
+        url('TriviaSlabLight.woff2') format('woff2'),
+        url('TriviaSlabLight.woff') format('woff'),
+        url('TriviaSlabLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
